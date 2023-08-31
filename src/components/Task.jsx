@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { useDispatch } from "react-redux";
-import { addTodo } from "../actions";
+import { addTodo } from "../features/todo/todoSlice";
 
 const Task = () => {
   const dispatch = useDispatch();
